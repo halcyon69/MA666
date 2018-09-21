@@ -32,4 +32,6 @@ def fbnq(n): # Define function
     while ii<n:
         aa[ii]=aa[ii-1]+aa[ii-2] # Recursive relation 
         ii=ii+1
+    print(aa)
     return aa # Return the full sequence
+   
